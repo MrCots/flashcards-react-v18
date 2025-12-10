@@ -1,3 +1,6 @@
+Hi! Hope you find this project useful and feel free to get in touch with me at any time.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
