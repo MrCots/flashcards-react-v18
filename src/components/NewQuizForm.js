@@ -17,7 +17,8 @@ export default function NewQuizForm() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (name.length === 0) {
+    if (name.length === 0 || topicId === "") {
+      //This will prevent the server or form run into an error if you try to add a quizz without creating a Topic first, it will make you to choose one
       return;
     }
 
@@ -74,6 +75,7 @@ export default function NewQuizForm() {
           id="quiz-topic"
           onChange={(e) => setTopicId(e.currentTarget.value)}
           placeholder="Topic"
+          required //this will make sure you select a topic before trying to submit a quiz
         >
           <option value="">Topic</option>
           {Object.values(topics).map((topic) => (
