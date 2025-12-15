@@ -1,4 +1,4 @@
-Hi! Hope you find this project useful and feel free to get in touch with me at any time.
+Hi! Hope you find this project useful and feel free to get in touch with me at any time. NOTE that this is a project of Codeacademy and is quite old already, the best would be update it to React + Vite. However, in this case I chose to do in the old version despite of some deprecations in order to do this project faster. In a near future I will update this and provide a live version in Netlify.
 
 
 # Getting Started with Create React App
